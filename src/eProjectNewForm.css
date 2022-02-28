@@ -1,0 +1,395 @@
+.DottedBox {
+  margin: 40px;
+  border: 5px dotted pink;
+}
+
+#DottedBox_content {
+  font-size: 15px;
+  text-align: left;
+}
+.container {
+  max-width: 1140px;
+  margin-left: 0px;
+}
+input[type="text"] {
+width: 100%; 
+ 
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color:transparent !important;
+  background-clip: border-box;
+  padding: 5px;
+  border-radius: .25rem;
+}
+.InputTable
+{
+  margin: 8px; 
+  width:100%;
+  border-collapse: separate;
+  border-spacing: 7px 0;
+}
+
+
+
+body {
+margin: 0;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+.table-color{
+background-color: #004b8e !important;
+color: #ffffff !important;
+height: 41px;
+padding-top: 10px;
+padding-left: 10px;
+font-size: 16px;
+font-weight: 700;
+font-family: Franklin Gothic Book;
+
+
+}
+
+
+.MyClass{
+  border-width: "3px";
+  border-style: solid;
+  border-collapse: collapse;
+  padding: 10px !important;
+  background-color: blanchedalmond;
+  text-align: justify;
+}
+
+
+th {
+  padding: 5px;
+}
+
+.ms-Dropdown-select {
+  width: 250px !important;
+}
+
+
+label {
+  margin-top: 7px;
+  margin-left: 3px;
+}
+
+th{
+  text-align:center;
+}
+
+
+.page-header{
+background-color: #004b8e;
+color: #ffffff;
+margin: 0 0 0 0 !important;
+font-size:16px;
+font-weight: bold;
+font-family: Franklin Gothic Book;
+font-size: 16px;
+font-weight: 700;
+font-family: Franklin Gothic Book;
+}
+/* tr:first-child .btnRemove { display:none } */
+.btnRemove{ display: none;}
+
+.accordionTitle{
+text-decoration: none !important;
+}
+.pull-right {
+float: right !important;
+}
+@media print {
+ .get-data-panel, .page-header{
+    display: none;
+}
+}
+
+@page { size: auto;  margin: 0mm; }
+
+textarea {
+resize: none;
+}
+label{
+font-weight: normal !important;
+}
+.btn-primary{
+background-color: #FFCC66 !important;
+border:#ce9a01 !important;
+color:#913503 !important;
+}
+
+.mandatory {
+  color: #a80000;
+}
+
+.btn-margin{
+margin-right: 10px;
+}
+
+.dpwidth{
+width: auto;
+}
+
+.tbl-width{
+width:305px;
+}
+.table-responsive {
+overflow-x: hidden !important;
+overflow-y: auto;
+}
+.done-block{
+color: #009900 !important;
+background-color:#f0fad3 !important;
+}
+.active-block{
+color: #a01c0a !important;
+background-color: #ffc700 !important;
+}
+.remove-block{
+display:none;
+}
+.disabledTab {
+pointer-events: none;
+background-color: #f6f6f6;
+}
+.icon-color{
+color:#913503
+}
+.panel-body{
+background: #f6f6f6;
+}
+.panel-heading{
+background: #fafafa;
+border: 1px solid #dcdcdc !important;
+}
+.tbl-background{
+background: #ffffff !important;
+}
+.tbl-tr-background{
+background:#f6f6f6;
+}
+#mainContainerRender
+{
+margin:10px;
+padding : 10px;
+}
+.card-header
+{
+padding: 0px !important;
+border-bottom: 0px !important;
+font-size: 16px;
+  font-weight: 700;
+  font-family: Franklin Gothic Book
+}
+.card-header
+{
+padding: 0px !important;
+border-bottom: 0px !important;
+font-size: 16px;
+  font-weight: 700;
+  font-family: Franklin Gothic Book;
+  background-color: #004b8e!important;
+  color: white !important
+}
+td{
+  padding-right:20px;
+}
+h5#mainSubheader {
+width: 229px;
+padding-left: 32px;
+width: 255px !important;
+/* padding-left: 32px; */
+/* padding-right: 20px; */
+font-size: 23px;
+}
+td{
+text-align: left;
+font-weight: 550;
+font-size: 14px;
+}
+
+ 
+ 
+h5#mainSubheader {
+width: 175px;
+padding-left: 32px;
+padding-right: 20px;
+}
+button#ResetButton {
+margin-right: 527px;
+}
+input#ProjStartDate-label{
+border: none;
+}
+input#ProjEndDate-label
+{
+border:none;
+}
+ 
+input#AgreedEndDate-label{
+border:none
+}
+input {
+height: 30px;
+}
+select {
+height: 30px;
+}
+input.ms-BasePicker-input.input-57 {
+border: none;
+}
+ 
+
+input.ms-BasePicker-input.input-58 {
+border: none;
+}
+input.addProgressDeviation {
+  width: auto;
+}
+td {
+  padding-bottom: 2px;
+}
+input#addBudgetDeviation {
+  width: 181px;
+}
+.btn-primary {
+  background-color: 4B8E !;
+  background-color: #004b8e!important;
+  border: #ce9a01!important;
+  color: #fff!important;
+  height: 30px;
+  width: 30px;
+  margin-top: 9px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+ .addProgressDeviation {
+  width: 158px;
+}
+input#addBudgetDeviation {
+  width: 159px;
+}
+th.ms-DatePicker-weekday.weekday_0368760b {
+  PADDING-left: 20px !IMPORTANT;
+}
+ 
+.dayWrapper_0368760b, .weekday_0368760b {
+    width: 50px;
+    height: 28px;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+span.Shortnote {
+  font-size: 12px;
+   
+  font-family: inherit;
+  font-style: normal;
+}
+.redstar
+{
+  color:red
+}
+select#HardCopy {
+  width: 50px !important;
+}
+.hideopt
+{
+  display: none;
+}
+div#RRDate {
+  width: 173px;
+}
+div#ChangeDate {
+  width: 173px; 
+}
+div#PR2Date {
+  width: 173px;
+}
+div#EUDRDate {
+  width: 173px;
+}
+div#QIDate {
+  width: 173px;
+}
+div#PR1Date {
+  width: 173px;
+}
+div#FSODate {
+  width: 173px;
+}
+input#addActualEnd {
+  width: 173px;
+}
+input#addBudgetChange {
+  width: 173px !important;
+}
+input#addProgressDeviation {
+  width: 173px !important;
+}
+input#addBudgetDeviation {
+  width: 173px !important;
+}
+input#addScheduleChange {
+  width: 173px !important;
+}
+input#addUpdateFrequenct {
+  width: 173px !important;
+} 
+input#TopRisk {
+  width: 105px;
+}
+textarea#CSSComments {
+  margin-left: 20px;
+}
+textarea#CloseComments {
+  margin-left: 20px;
+}
+textarea#ResourceSkillComments {
+  margin-left: 20px;
+}
+.mybtn:after {
+  font-family: 'FontAwesome';  
+  content: "\f068";
+}
+.mybtn.collapsed:after {
+  content: "\f067";
+}
+
+.glyphicon {
+  margin:10px
+}
+/* input[type=text] {
+
+background-color:#E8F0FF !important;
+
+}
+input, optgroup, select, textarea {
+margin: 0;
+font-family: inherit;
+font-size: inherit;
+line-height: inherit;
+background-color: #E8F0FF;
+}
+input[type=password], input[type=text], input[type=file], input:not([type]), textarea, .ms-inputBox {
+padding: 2px 5px;
+background-color: #E9F0FF !important;
+}
+.ms-BasePicker.ms-PeoplePicker.root-54 {
+background-color: #E9F0FF !important;
+} */
